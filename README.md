@@ -17,9 +17,8 @@ hơn trong mã nguồn này:
 Chúng ta sẽ tạo 1 lớp là abstract tên là ConnectionFactory:
 
 public abstract class ConnectionFactory {
-  public ConnectionFactory() {
-  }
-  
+  public ConnectionFactory() {}
+ 
   protected abstract Connection createConnection();
 }
 
