@@ -24,3 +24,4 @@ public abstract class ConnectionFactory {
 
 Sau đó trong FirstFactory chúng ta thực hiện implements ConnectionFactory và định nghĩa createConnection, bạn cũng có thể tạo
 thêm SecondFactory và ThirdFactory và chỉ cần thực hiện implements ConnectionFactory.
+   
